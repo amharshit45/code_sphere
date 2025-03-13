@@ -28,7 +28,6 @@ const defaultSettings: Settings = {
     language: "Javascript",
     fontSize: 16,
     fontFamily: "Space Mono",
-    showGitHubCorner: true,
 }
 
 function SettingContextProvider({ children }: { children: ReactNode }) {
