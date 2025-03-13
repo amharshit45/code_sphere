@@ -45,7 +45,7 @@ You can view the live preview of the project [here](https://your-url-here.vercel
 1. **Fork this repository:** Click the Fork button located in the top-right corner of this page.
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/Code_Sphere.git
+   git clone https://github.com/amharshit45/Code_Sphere.git
    ```
 3. **Create .env file:**
    Inside the client and server directories create `.env` and set:
