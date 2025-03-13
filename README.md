@@ -18,6 +18,7 @@ A collaborative, real-time code editor where users can seamlessly code together.
 - 🔠 Option to change font size and font family
 - 🎨 Multiple themes for personalized coding experience
 - 🎨 Collaborative Drawing: Enable users to draw and sketch collaboratively in real-time
+- 🤖 Copilot: An AI-powered assistant that generates code, allowing you to insert, copy, or replace content seamlessly within your files.
 
 ## 🚀 Live Preview
 
