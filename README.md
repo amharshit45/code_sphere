@@ -45,7 +45,7 @@ You can view the live preview of the project [here](https://your-url-here.vercel
 1. **Fork this repository:** Click the Fork button located in the top-right corner of this page.
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/Code-Sync.git
+   git clone https://github.com/<your-username>/Code_Sphere.git
    ```
 3. **Create .env file:**
    Inside the client and server directories create `.env` and set:
@@ -81,8 +81,6 @@ You can view the live preview of the project [here](https://your-url-here.vercel
    ```bash
    http://localhost:5173/
    ```
-### 🎥 Need help with the setup?
-👉 Watch [this video](https://youtu.be/zVHwOmU0aqo) for a step-by-step guide.
 ### Method 2: Docker Installation
 
 1. **Install Docker Desktop:**
@@ -97,20 +95,20 @@ You can view the live preview of the project [here](https://your-url-here.vercel
 
    ```bash
    # Pull Backend Image
-   docker pull sahilatahar/code-sync-server:latest
+   docker pull amharshit45/code-sphere-server:latest
 
    # Pull Frontend Image
-   docker pull sahilatahar/code-sync-client:latest
+   docker pull amharshit45/code-sphere-client:latest
    ```
 
 3. **Run Docker Containers:**
 
    ```bash
    # Run Backend Container (Port 3000)
-   docker run -d -p 3000:3000 --name code-sync-server sahilatahar/code-sync-server:latest
+   docker run -d -p 3000:3000 --name code-sphere-server amharshit45/code-sphere-server:latest
 
    # Run Frontend Container (Port 5173)
-   docker run -d -p 5173:5173 --name code-sync-client sahilatahar/code-sync-client:latest
+   docker run -d -p 5173:5173 --name code-sphere-client amharshit45/code-sphere-client:latest
    ```
 
 4. **Access the application:**
